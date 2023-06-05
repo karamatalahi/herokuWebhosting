@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Piazzolla', serif;
-    color: white;
 }
 
 body{
@@ -17,6 +16,10 @@ body{
 :root{
     --main-bg : #1e272e;
     --main-color : #0097e6;
+}
+
+h1{
+    color: black;
 }
 
 html{
@@ -256,4 +259,15 @@ footer p {
     .tempInformation{
         width: auto;
     }
+}
+
+/* little changes in some code  */
+.about-me{
+    padding-left: 300px;
+}
+.about-button{
+    margin-left: 300px;
+}
+.about-para{
+    margin-left: 286px;
 }
